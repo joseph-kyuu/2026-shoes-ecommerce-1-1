@@ -38,4 +38,86 @@
   --functional-info-100: #eef5fc;
   --functional-info-200: #97c3ed;
   --functional-info-300: #3087db;
+
+  /* 
+  =================
+  !!!!!字體尺寸!!!!!
+  =================
+  */
+  /* 基底 */
+  --font-size-base: 1rem;
+  /* 大尺寸 */
+  /* 64px */
+  --display-1: calc(var(--font-size-base) * 4);
+  /* 48px */
+  --display-2: calc(var(--font-size-base) * 3);
+  /* 一般尺寸 */
+  /* 40px */
+  --fs-1: calc(var(--font-size-base) * 2.5);
+  /* 32px */
+  --fs-2: calc(var(--font-size-base) * 2);
+  /* 28px */
+  --fs-3: calc(var(--font-size-base) * 1.75);
+  /* 24px */
+  --fs-4: calc(var(--font-size-base) * 1.5);
+  /* 20px */
+  --fs-5: calc(var(--font-size-base) * 1.25);
+  /* 16px */
+  --fs-6: var(--font-size-base);
+  /* 小尺寸 */
+  /* 14px */
+  --fs-7: var(--font-size-base);
+  /* 12px */
+  --fs-8: var(--font-size-base);
+
+  /* 
+  =============
+  !!!!!行高!!!!!
+  =============
+  */
+  --lh-1p5: 1.5;
+  --lh-1p2: 1.2;
+
+  /* 
+  =============
+  !!!!!字距!!!!!
+  =============
+  */
+  --ls-5: 5em;
+
+  /* 
+  =============
+  !!!!!間距!!!!!
+  =============
+  */
+  /* 80px */
+  --spacing-6xl: calc(var(--font-size-base) * 5);
+  /* 64px */
+  --spacing-5xl: calc(var(--font-size-base) * 4);
+  /* 56px */
+  --spacing-4xl: calc(var(--font-size-base) * 3.5);
+  /* 48px */
+  --spacing-3xl: calc(var(--font-size-base) * 3);
+  /* 40px */
+  --spacing-2xl: calc(var(--font-size-base) * 2.5);
+  /* 32px */
+  --spacing-xl: calc(var(--font-size-base) * 2);
+  /* 24px */
+  --spacing-l: calc(var(--font-size-base) * 1.5);
+  /* 16px */
+  --spacing-s: var(--font-size-base);
+  /* 12px */
+  --spacing-m: calc(var(--font-size-base) * 0.75);
+  /* 8px */
+  --spacing-xs: calc(var(--font-size-base) * 0.5);
+  /* 4px */
+  --spacing-xxs: calc(var(--font-size-base) * 0.25);
+
+  /* 
+  =============
+  !!!!!圓角!!!!!
+  =============
+  */
+  /* 12px */
+  --radius-md: calc(var(--font-size-base) * 0.75);
 }
