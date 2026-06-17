@@ -1,0 +1,69 @@
+/* 
+ ====================
+ !!!!!按鈕樣式基底!!!!!
+ ====================
+ */
+
+.btn {
+  /* 顯示層級 */
+  display: inline-block; /* 行內區塊 */
+
+  /* 字體 */
+  font-weight: 500; /* 字重 */
+  line-height: 1.5; /* 行高 */
+  text-align: center; /* 文字對齊 */
+  text-decoration: none; /* 文字裝飾 */
+  vertical-align: middle; /* 垂直對齊 */
+  letter-spacing: var(--ls-5); /* 字距 */
+
+  /* 文字無法反白 */
+  user-select: none;
+
+  /* 外邊框 */
+  border: 1px solid transparent;
+
+  /* 圓角 */
+  border-radius: var(--radius-sm);
+
+  /* 過度動畫 */
+  transition: all 0.15s ease-in-out;
+
+  /* 滑鼠游標樣式 */
+  cursor: pointer; /* 手指 */
+}
+
+/* 大按鈕 */
+.btn-large {
+  /* 內間距 */
+  padding-top: var(--spacing-m);
+  padding-bottom: var(--spacing-m);
+  padding-left: var(--spacing-l);
+  padding-right: var(--spacing-l);
+}
+
+/* 小按鈕 */
+.btn-small {
+  /* 內間距 */
+  padding-top: var(--spacing-xs);
+  padding-bottom: var(--spacing-xs);
+  padding-left: var(--spacing-s);
+  padding-right: var(--spacing-s);
+}
+
+/* 
+ ====================
+ !!!!!實體按鈕樣式!!!!!
+ ====================
+ */
+
+.btn-primary {
+  color: var(--neutral-900);
+  background: var(--primary-300);
+}
+
+.btn-primary:hover,
+.btn.btn-primary:active {
+  color: var(--primary-500);
+  background: var(--primary-300);
+  border-color: transparent;
+}

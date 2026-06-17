@@ -1,8 +1,130 @@
-/* line-height */
+/* 
+  =============
+  !!!!!行高!!!!!
+  =============
+*/
+
+/* 1.2倍 */
 .lh-1p2 {
   line-height: 1.2;
 }
 
+/* 1.5倍 */
 .lh-1p5 {
   line-height: 1.5;
+}
+
+/* 
+  =============
+  !!!!!顏色!!!!!
+  =============
+*/
+
+/* 文字顏色 */
+/* primary */
+.text-primary-500 {
+  color: var(--primary-500);
+}
+
+/* neutral */
+.neutral-0 {
+  color: var(--neutral-0);
+}
+
+.text-neutral-900 {
+  color: var(--neutral-900);
+}
+
+.text-neutral-0 {
+  color: var(--neutral-0);
+}
+
+/* 背景顏色 */
+/* primary */
+.bg-primary-300 {
+  background: var(--primary-300);
+}
+
+/* neutral */
+.bg-neutral-900 {
+  background: var(--neutral-900);
+}
+
+.bg-neutral-700 {
+  background: var(--neutral-700);
+}
+
+/* 
+  =============
+  !!!!!字體尺寸!!!!!
+  =============
+*/
+/* 大尺寸 */
+/* 64px */
+.display-1 {
+  font-size: var(--display-1) !important;
+}
+
+/* 28px */
+.fs-3 {
+  font-size: var(--fs-3) !important;
+}
+
+/* 
+  =============
+  !!!!!間距!!!!!
+  =============
+*/
+
+/* 16px */
+.p-3 {
+  padding: var(--spacing-s);
+}
+
+/* 12px */
+.p-7 {
+  padding: var(--spacing-m);
+}
+
+/* 16px */
+.py-3 {
+  padding-top: var(--spacing-s);
+  padding-bottom: var(--spacing-s);
+}
+
+/* 12px */
+.py-7 {
+  padding-top: var(--spacing-m);
+  padding-bottom: var(--spacing-m);
+}
+
+/* 400 */
+.py-hero {
+  padding-top: var(--spacing-hero);
+  padding-bottom: var(--spacing-hero);
+}
+
+/* 200px */
+.ps-8 {
+  padding-left: var(--spacing-13);
+}
+
+/* 48px */
+.me-5 {
+  margin-right: var(--spacing-3xl);
+}
+
+/* 40px */
+.me-6 {
+  margin-right: var(--spacing-2xl);
+}
+
+/* 16px */
+.mb-3 {
+  margin-bottom: var(--spacing-s);
+}
+
+/* 48px */
+.mb-5 {
+  margin-bottom: var(--spacing-3xl);
 }
