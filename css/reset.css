@@ -1,14 +1,14 @@
 body {
   font-family: "Noto Sans", sans-serif;
-  line-height: 1.5;
-  color: var(--neutral-700);
-  background: var(--primary-50);
+  line-height: var(--lh-1p5);
+  color: var(--neutral-900);
+  letter-spacing: var(--ls-5);
 }
 
 a {
   text-decoration: none;
   display: block;
-  color: var(--neutral-700);
+  color: var(--neutral-900);
 }
 
 img {
