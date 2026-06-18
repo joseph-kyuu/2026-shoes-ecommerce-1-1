@@ -1,7 +1,8 @@
 /* index */
 
 /* 判斷主選單最後一個 li */
-.main-nav li:last-child {
+.main-nav li:last-child,
+.footer-nav li:last-child {
   margin-right: var(--spacing-0);
 }
 

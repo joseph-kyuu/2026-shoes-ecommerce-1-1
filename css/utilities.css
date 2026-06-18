@@ -31,6 +31,10 @@
   color: var(--neutral-0);
 }
 
+.text-neutral-600 {
+  color: var(--neutral-600);
+}
+
 .text-neutral-900 {
   color: var(--neutral-900);
 }
@@ -41,6 +45,10 @@
 
 /* 背景顏色 */
 /* primary */
+.bg-primary-200 {
+  background: var(--primary-200);
+}
+
 .bg-primary-300 {
   background: var(--primary-300);
 }
@@ -54,10 +62,15 @@
   background: var(--neutral-700);
 }
 
+/* 外邊框顏色 */
+.border-neutral-300 {
+  border: var(--neutral-300);
+}
+
 /* 
-  =============
+  ================
   !!!!!字體尺寸!!!!!
-  =============
+  ================
 */
 /* 大尺寸 */
 /* 64px */
@@ -70,12 +83,24 @@
   font-size: var(--fs-3) !important;
 }
 
+/* 24px */
+.fs-4 {
+  font-size: var(--fs-4) !important;
+}
+
+/* 小尺寸 */
+/* 14px */
+.fs-7 {
+  font-size: var(--fs-7) !important;
+}
+
 /* 
   =============
   !!!!!間距!!!!!
   =============
 */
 
+/* padding */
 /* 16px */
 .p-3 {
   padding: var(--spacing-s);
@@ -86,10 +111,17 @@
   padding: var(--spacing-m);
 }
 
+/* padding-top + padding-bottom  */
 /* 16px */
 .py-3 {
   padding-top: var(--spacing-s);
   padding-bottom: var(--spacing-s);
+}
+
+/* 24px */
+.py-4 {
+  padding-top: var(--spacing-l);
+  padding-bottom: var(--spacing-l);
 }
 
 /* 12px */
@@ -98,15 +130,38 @@
   padding-bottom: var(--spacing-m);
 }
 
+/* 64 */
+.py-9 {
+  padding-top: var(--spacing-5xl);
+  padding-bottom: var(--spacing-5xl);
+}
+
 /* 400 */
 .py-hero {
   padding-top: var(--spacing-hero);
   padding-bottom: var(--spacing-hero);
 }
 
+/* 48px */
+.pt-5 {
+  padding-top: var(--spacing-3xl);
+}
+
+/* 32px */
+.pt-10 {
+  padding-top: var(--spacing-xl);
+}
+
+/* padding-left */
 /* 200px */
 .ps-8 {
   padding-left: var(--spacing-13);
+}
+
+/* margin */
+/* 24px */
+.me-4 {
+  margin-right: var(--spacing-l);
 }
 
 /* 48px */
@@ -119,9 +174,19 @@
   margin-right: var(--spacing-2xl);
 }
 
+/* 4px */
+.mb-1 {
+  margin-bottom: var(--spacing-xxs);
+}
+
 /* 16px */
 .mb-3 {
   margin-bottom: var(--spacing-s);
+}
+
+/* 24px */
+.mb-4 {
+  margin-bottom: var(--spacing-l);
 }
 
 /* 48px */

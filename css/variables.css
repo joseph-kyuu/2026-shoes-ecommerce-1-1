@@ -66,9 +66,9 @@
   --fs-6: var(--font-size-base);
   /* 小尺寸 */
   /* 14px */
-  --fs-7: var(--font-size-base);
+  --fs-7: calc(var(--font-size-base) * 0.875);
   /* 12px */
-  --fs-8: var(--font-size-base);
+  --fs-8: calc(var(--font-size-base) * 0.75);
 
   /* 
   =============

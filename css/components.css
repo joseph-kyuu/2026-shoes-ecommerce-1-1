@@ -67,3 +67,15 @@
   background: var(--primary-300);
   border-color: transparent;
 }
+
+.btn-neutral-filled {
+  color: var(--neutral-0);
+  background: var(--neutral-900);
+}
+
+.btn-neutral-filled:hover,
+.btn.btn-neutral-filled:active {
+  color: var(--neutral-0);
+  background: var(--neutral-700);
+  border-color: transparent;
+}
