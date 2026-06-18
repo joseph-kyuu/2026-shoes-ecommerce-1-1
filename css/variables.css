@@ -90,6 +90,10 @@
   !!!!!間距!!!!!
   =============
   */
+  /* 84px */
+  --spacing-15: calc(var(--font-size-base) * 5.25);
+  /* 100px */
+  --spacing-14: calc(var(--font-size-base) * 6.25);
   /* 200px */
   --spacing-13: calc(var(--font-size-base) * 12.5);
   /* 288px */
