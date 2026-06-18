@@ -1,13 +1,25 @@
 /* index */
 
 /* 判斷主選單最後一個 li */
-.main-nav li:last-child {
+.main-nav li:last-child,
+.footer-nav li:last-child {
   margin-right: var(--spacing-0);
 }
 
-/* hero 背景 */
+.new-arrival li:nth-last-child(-n + 2) {
+  margin-bottom: var(--spacing-0);
+}
+
+/* 背景 */
 .bg-hero {
   background: url(../img/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-cross {
+  background: url(../img/banner-co-branded.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
