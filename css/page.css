@@ -24,3 +24,39 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.bg-shoes-series-6 {
+  background:
+    linear-gradient(var(--mask-black-o40), var(--mask-black-o40)),
+    url(../img/product-6.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-shoes-series-11 {
+  background:
+    linear-gradient(var(--mask-black-o40), var(--mask-black-o40)),
+    url(../img/product-11.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-shoes-series-9 {
+  background:
+    linear-gradient(var(--mask-black-o40), var(--mask-black-o40)),
+    url(../img/product-9.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-shoes-series-10 {
+  background:
+    linear-gradient(var(--mask-black-o40), var(--mask-black-o40)),
+    url(../img/product-10.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

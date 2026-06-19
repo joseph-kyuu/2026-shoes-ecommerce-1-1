@@ -38,6 +38,10 @@
   --functional-info-100: #eef5fc;
   --functional-info-200: #97c3ed;
   --functional-info-300: #3087db;
+  /* black */
+  --black-rgb: 0, 0, 0;
+  /* RGB */
+  --mask-black-o40: rgba(var(--black-rgb), 0.4);
 
   /* 
   =================
@@ -45,30 +49,30 @@
   =================
   */
   /* 基底 */
-  --font-size-base: 1rem;
+  --general-size-base: 1rem;
   /* 大尺寸 */
   /* 64px */
-  --display-1: calc(var(--font-size-base) * 4);
+  --display-1: calc(var(--general-size-base) * 4);
   /* 48px */
-  --display-2: calc(var(--font-size-base) * 3);
+  --display-2: calc(var(--general-size-base) * 3);
   /* 一般尺寸 */
   /* 40px */
-  --fs-1: calc(var(--font-size-base) * 2.5);
+  --fs-1: calc(var(--general-size-base) * 2.5);
   /* 32px */
-  --fs-2: calc(var(--font-size-base) * 2);
+  --fs-2: calc(var(--general-size-base) * 2);
   /* 28px */
-  --fs-3: calc(var(--font-size-base) * 1.75);
+  --fs-3: calc(var(--general-size-base) * 1.75);
   /* 24px */
-  --fs-4: calc(var(--font-size-base) * 1.5);
+  --fs-4: calc(var(--general-size-base) * 1.5);
   /* 20px */
-  --fs-5: calc(var(--font-size-base) * 1.25);
+  --fs-5: calc(var(--general-size-base) * 1.25);
   /* 16px */
-  --fs-6: var(--font-size-base);
+  --fs-6: var(--general-size-base);
   /* 小尺寸 */
   /* 14px */
-  --fs-7: calc(var(--font-size-base) * 0.875);
+  --fs-7: calc(var(--general-size-base) * 0.875);
   /* 12px */
-  --fs-8: calc(var(--font-size-base) * 0.75);
+  --fs-8: calc(var(--general-size-base) * 0.75);
 
   /* 
   =============
@@ -90,36 +94,38 @@
   !!!!!間距!!!!!
   =============
   */
+  /* 153px */
+  --spacing-16: calc(var(--general-size-base) * 9.5625);
   /* 84px */
-  --spacing-15: calc(var(--font-size-base) * 5.25);
+  --spacing-15: calc(var(--general-size-base) * 5.25);
   /* 100px */
-  --spacing-14: calc(var(--font-size-base) * 6.25);
+  --spacing-14: calc(var(--general-size-base) * 6.25);
   /* 200px */
-  --spacing-13: calc(var(--font-size-base) * 12.5);
+  --spacing-13: calc(var(--general-size-base) * 12.5);
   /* 288px */
-  --spacing-hero: calc(var(--font-size-base) * 18);
+  --spacing-hero: calc(var(--general-size-base) * 18);
   /* 80px */
-  --spacing-6xl: calc(var(--font-size-base) * 5);
+  --spacing-6xl: calc(var(--general-size-base) * 5);
   /* 64px */
-  --spacing-5xl: calc(var(--font-size-base) * 4);
+  --spacing-5xl: calc(var(--general-size-base) * 4);
   /* 56px */
-  --spacing-4xl: calc(var(--font-size-base) * 3.5);
+  --spacing-4xl: calc(var(--general-size-base) * 3.5);
   /* 48px */
-  --spacing-3xl: calc(var(--font-size-base) * 3);
+  --spacing-3xl: calc(var(--general-size-base) * 3);
   /* 40px */
-  --spacing-2xl: calc(var(--font-size-base) * 2.5);
+  --spacing-2xl: calc(var(--general-size-base) * 2.5);
   /* 32px */
-  --spacing-xl: calc(var(--font-size-base) * 2);
+  --spacing-xl: calc(var(--general-size-base) * 2);
   /* 24px */
-  --spacing-l: calc(var(--font-size-base) * 1.5);
+  --spacing-l: calc(var(--general-size-base) * 1.5);
   /* 16px */
-  --spacing-s: var(--font-size-base);
+  --spacing-s: var(--general-size-base);
   /* 12px */
-  --spacing-m: calc(var(--font-size-base) * 0.75);
+  --spacing-m: calc(var(--general-size-base) * 0.75);
   /* 8px */
-  --spacing-xs: calc(var(--font-size-base) * 0.5);
+  --spacing-xs: calc(var(--general-size-base) * 0.5);
   /* 4px */
-  --spacing-xxs: calc(var(--font-size-base) * 0.25);
+  --spacing-xxs: calc(var(--general-size-base) * 0.25);
   /* 0px */
   --spacing-0: 0px;
 
@@ -129,8 +135,8 @@
   =============
   */
   /* 4px */
-  --radius-sm: calc(var(--font-size-base) * 0.25);
+  --radius-sm: calc(var(--general-size-base) * 0.25);
 
   /* 12px */
-  --radius-md: calc(var(--font-size-base) * 0.75);
+  --radius-md: calc(var(--general-size-base) * 0.75);
 }
