@@ -129,6 +129,10 @@
   /* 0px */
   --spacing-0: 0px;
 
+  /* 負值 */
+  /* -4px */
+  --spacing-n-xxs: calc(var(--general-size-base) * (-0.25));
+
   /* 
   =============
   !!!!!圓角!!!!!
@@ -139,4 +143,4 @@
 
   /* 12px */
   --radius-md: calc(var(--general-size-base) * 0.75);
-}
+

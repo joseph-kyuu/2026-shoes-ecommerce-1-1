@@ -325,3 +325,10 @@
 .mb-12 {
   margin-bottom: var(--spacing-15);
 }
+
+/* 負值 */
+/* -4px */
+.mx-n-1 {
+  margin-left: var(--spacing-n-xxs);
+  margin-right: var(--spacing-n-xxs);
+}
