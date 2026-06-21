@@ -133,6 +133,11 @@
   font-size: var(--fs-5) !important;
 }
 
+/* 16px */
+.fs-6 {
+  font-size: var(--fs-6) !important;
+}
+
 /* 小尺寸 */
 /* 14px */
 .fs-7 {
@@ -141,7 +146,7 @@
 
 /* 
   =============
-  !!!!!間距!!!!!  #13
+  !!!!!間距!!!!!  下一次#17
   =============
 */
 
@@ -210,10 +215,16 @@
   padding-bottom: var(--spacing-16);
 }
 
-/* 400px */
-.py-hero {
-  padding-top: var(--spacing-hero);
-  padding-bottom: var(--spacing-hero);
+/* 155px */
+.py-14 {
+  padding-top: var(--spacing-17);
+  padding-bottom: var(--spacing-17);
+}
+
+/* 40px */
+.py-15 {
+  padding-top: var(--spacing-2xl);
+  padding-bottom: var(--spacing-2xl);
 }
 
 /* padding-left、padding-right */
@@ -232,6 +243,18 @@
 .px-4 {
   padding-left: var(--spacing-l);
   padding-right: var(--spacing-l);
+}
+
+/* 6px */
+.px-16 {
+  padding-left: var(--spacing-18);
+  padding-right: var(--spacing-18);
+}
+
+/* 8px */
+.px-2 {
+  padding-left: var(--spacing-xs);
+  padding-right: var(--spacing-xs);
 }
 
 /* 48px */
@@ -331,4 +354,122 @@
 .mx-n-1 {
   margin-left: var(--spacing-n-xxs);
   margin-right: var(--spacing-n-xxs);
+}
+
+/* -6px */
+.mx-n-2 {
+  margin-left: var(--spacing-n-1);
+  margin-right: var(--spacing-n-1);
+}
+
+/* -12px */
+.mx-n-3 {
+  margin-left: var(--spacing-n-2);
+  margin-right: var(--spacing-n-2);
+}
+
+/* -8px */
+.mx-n-4 {
+  margin-left: var(--spacing-n-3);
+  margin-right: var(--spacing-n-3);
+}
+
+/* max-width */
+
+/* 300px */
+.max-w-1 {
+  max-width: var(--max-m-1);
+}
+
+/* RWD */
+@media (min-width: 576px) {
+  .py-sm-hero {
+    padding-top: var(--spacing-hero) !important;
+    padding-bottom: var(--spacing-hero) !important;
+  }
+
+  /* 200px */
+  .ps-sm-8 {
+    padding-left: var(--spacing-13) !important;
+  }
+
+  /* 
+  ================
+  !!!!!字體尺寸!!!!!
+  ================
+*/
+  /* 大尺寸 */
+  /* 64px */
+  .display-sm-1 {
+    font-size: var(--display-1) !important;
+  }
+
+  /* 48px */
+  .display-sm-2 {
+    font-size: var(--display-2) !important;
+  }
+
+  /* 20px */
+  .fs-sm-5 {
+    font-size: var(--fs-5) !important;
+  }
+
+  /* 28px */
+  .fs-sm-3 {
+    font-size: var(--fs-3) !important;
+  }
+
+  /* 32px */
+  .fs-sm-2 {
+    font-size: var(--fs-2) !important;
+  }
+
+  /* 
+  =============
+  !!!!!間距!!!!! 
+  =============
+*/
+
+  /* 12px */
+  .px-sm-7 {
+    padding-left: var(--spacing-m);
+    padding-right: var(--spacing-m);
+  }
+
+  /* 64px */
+  .py-sm-9 {
+    padding-top: var(--spacing-5xl);
+    padding-bottom: var(--spacing-5xl);
+  }
+
+  /* 12px */
+  .mb-sm-7 {
+    margin-bottom: var(--spacing-m);
+  }
+
+  /* 16px */
+  .mb-sm-3 {
+    margin-bottom: var(--spacing-s);
+  }
+
+  /* 40px */
+  .mb-sm-6 {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  /* 32px */
+  .mb-sm-10 {
+    margin-bottom: var(--spacing-xl);
+  }
+
+  /* 40px */
+  .mb-sm-6 {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  /* -12px */
+  .mx-sm-n-3 {
+    margin-left: var(--spacing-n-2);
+    margin-right: var(--spacing-n-2);
+  }
 }

@@ -94,6 +94,10 @@
   !!!!!間距!!!!!
   =============
   */
+  /* 6px */
+  --spacing-18: calc(var(--general-size-base) * 0.375);
+  /* 155px */
+  --spacing-17: calc(var(--general-size-base) * 9.6875);
   /* 153px */
   --spacing-16: calc(var(--general-size-base) * 9.5625);
   /* 84px */
@@ -132,6 +136,12 @@
   /* 負值 */
   /* -4px */
   --spacing-n-xxs: calc(var(--general-size-base) * (-0.25));
+  /* -6px */
+  --spacing-n-1: calc(var(--general-size-base) * (-0.375));
+  /* -12px */
+  --spacing-n-2: calc(var(--general-size-base) * (-0.75));
+  /* -8px */
+  --spacing-n-3: calc(var(--general-size-base) * (-0.5));
 
   /* 
   =============
@@ -144,3 +154,12 @@
   /* 12px */
   --radius-md: calc(var(--general-size-base) * 0.75);
 
+  /* 
+  =============
+  !!!!!寬度!!!!!
+  =============
+  */
+
+  /* 300px */
+  --max-m-1: calc(var(--general-size-base) * 18.75);
+}
