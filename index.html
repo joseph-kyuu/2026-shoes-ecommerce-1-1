@@ -33,10 +33,11 @@
     <!-- 選單、會員按鈕、hero -->
     <header>
       <!-- 選單、會員按鈕 -->
-      <nav class="container d-flex justify-content-between py-3">
+      <!-- 桌面版 -->
+      <nav class="container d-flex justify-content-between py-md3 p-7">
         <!-- 選單 -->
-        <ul class="main-nav list-unstyled d-flex align-items-center">
-          <li class="me-5">
+        <ul class=" list-unstyled d-flex align-items-center">
+          <li class="me-5 ">
             <a href="index.html">
               <h1>
                 <img
@@ -47,11 +48,9 @@
               </h1>
             </a>
           </li>
-          <li class="me-6">
-            <a class="py-7 fw-medium" href="#">商品列表</a>
-          </li>
-          <li class="me-6">
-            <a class="py-7 fw-medium" href="＃">品牌故事</a>
+          <li class="me-6 d-flex align-items-center main-nav d-none d-sm-flex">
+            <a class="py-7 fw-medium me-6 " href="＃">品牌故事</a>
+            <a class="py-7 fw-medium me-6" href="#">商品列表</a>
           </li>
         </ul>
         <!-- 會員按鈕 -->
@@ -63,18 +62,29 @@
           />
         </a>
       </nav>
+      <!-- 手機版 -->
+      <nav>
+        <ul class="list-unstyled d-flex d-sm-none text-center  ">
+          <li class="w-100">
+            <a class="py-7 fw-medium w-100 bg-primary-100 nav-phone active" href="＃">品牌故事</a>
+          </li>
+          <li class=" w-100">
+        <a class="py-7 fw-medium bg-primary-100 w-100 nav-phone" href="#">商品列表</a>
+          </li>
+        </ul>
+      </nav>
       <!-- hero -->
-      <section class="py-hero bg-hero d-flex align-items-center ps-8">
+      <section class="py-sm-hero bg-hero d-flex align-items-center py-14 ps-sm-8 px-4">
         <!-- 標題、標語、CTA -->
         <div>
           <!-- 標題、標語 -->
-          <div class="mb-5">
+          <div class="mb-sm-5 mb-10">
             <!-- 標題 -->
-            <div class="mb-3">
-              <h2 class="neutral-0 display-1 fw-bold lh-1p2">URBNSTEP</h2>
+            <div class="mb-sm-3 mb-2">
+              <h2 class="neutral-0 display-sm-1 display-2 fw-bold lh-1p2">URBNSTEP</h2>
             </div>
             <!-- 標語 -->
-            <p class="neutral-0 fs-3 fw-bold lh-1p2">
+            <p class="neutral-0 fs-sm-3 fs-5 fw-bold lh-1p2">
               Your Step, Your Statement
             </p>
           </div>
@@ -86,20 +96,20 @@
     <!-- main -->
     <main>
       <!-- 新品上市 -->
-      <section class="py-9">
+      <section class="py-sm-9 py-15">
         <div class="container">
           <!-- 標題 -->
-          <div class="mb-10 text-center">
-            <div class="mb-7">
-              <h2 class="display-2 text-neutral-900 fw-bold lh-1p2">
+          <div class="mb-sm-10 mb-4 text-center">
+            <div class="mb-sm-7 mb-2">
+              <h2 class="display-sm-2 fs-2 text-neutral-900 fw-bold lh-1p2">
                 New Arrival
               </h2>
             </div>
-            <h2 class="fs-2 text-neutral-900 fw-bold lh-1p2">新品上市</h2>
+            <h2 class="fs-sm-2 fs-4 text-neutral-900 fw-bold lh-1p2">新品上市</h2>
           </div>
           <!-- 商品列表 -->
-          <ul class="row list-unstyled row-cols-2 new-arrival">
-            <li class="col mb-6">
+          <ul class="row list-unstyled row-cols-2 new-arrival mx-sm-n-3 mx-n-2">
+            <li class="col mb-sm-6 mb-4 px-16 px-sm-7">
               <!-- 圖片 -->
               <div class="mb-7">
                 <img
@@ -111,15 +121,14 @@
               <!-- 商品名稱、價錢 -->
               <div>
                 <div class="mb-1">
-                  <h3 class="fs-5 text-neutral-900 fw-bold lh-1p2">
+                  <h3 class="fs-sm-5 fs-6 text-neutral-900 fw-bold lh-1p2">
                     Monoverse
                   </h3>
                 </div>
-
-                <p class="fw-normal text-neutral-900">NT$3,600</p>
+                <p class="fw-sm-normal fw-medium text-neutral-900">NT$3,600</p>
               </div>
             </li>
-            <li class="col mb-6">
+            <li class="col mb-sm-6 mb-4 px-16 px-sm-7">
               <!-- 圖片 -->
               <div class="mb-7">
                 <img
@@ -131,15 +140,15 @@
               <!-- 商品名稱、價錢 -->
               <div>
                 <div class="mb-1">
-                  <h3 class="fs-5 text-neutral-900 fw-bold lh-1p2">
+                  <h3 class="fs-sm-5 fs-6 text-neutral-900 fw-bold lh-1p2">
                     PLATFORM 404
                   </h3>
                 </div>
-                <p class="fw-normal text-neutral-900">NT$2,600</p>
+                <p class="fw-sm-normal fw-medium text-neutral-900">NT$2,600</p>
               </div>
             </li>
             </li>
-            <li class="col mb-6">
+            <li class="col mb-sm-6 mb-4 px-16 px-sm-7">
               <!-- 圖片 -->
               <div class="mb-7">
                 <img
@@ -151,15 +160,15 @@
               <!-- 商品名稱、價錢 -->
               <div>
                 <div class="mb-1">
-                  <h3 class="fs-5 text-neutral-900 fw-bold lh-1p2">
+                  <h3 class="fs-sm-5 fs-6 text-neutral-900 fw-bold lh-1p2">
                     URBN Force
                   </h3>
                 </div>
 
-                <p class="fw-normal text-neutral-900">NT$3,200</p>
+                <p class="fw-sm-normal fw-medium text-neutral-900">NT$3,200</p>
               </div>
             </li>
-            <li class="col mb-6">
+            <li class="col mb-sm-6 mb-4 px-16 px-sm-7">
               <!-- 圖片 -->
               <div class="mb-7">
                 <img
@@ -171,27 +180,28 @@
               <!-- 商品名稱、價錢 -->
               <div>
                 <div class="mb-1">
-                  <h3 class="fs-5 text-neutral-900 fw-bold lh-1p2">
+                  <h3 class="fs-sm-5 fs-6 text-neutral-900 fw-bold lh-1p2">
                     Mode90
                   </h3>
                 </div>
 
-                <p class="fw-normal text-neutral-900">NT$4,000</p>
+                <p class="fw-sm-normal fw-medium text-neutral-900">NT$4,000</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
       <!-- 熱銷補貨 -->
-      <section class="py-9">
+      <section class="py-sm-9 py-15">
         <div class="container">
           <div>
             <div class="mb-3">
-              <h2 class="fs-2 text-neutral-900 fw-bold lh-1p2">熱銷補貨
+              <h2 class="fs-sm-2
+              fs-4  text-neutral-900 fw-bold lh-1p2">熱銷補貨
             </h2>
             </div>
-            <ul class="row list-unstyled row-cols-4">
-              <li class="col">
+            <ul class="row list-unstyled row-cols-md-4 row-cols-sm-2 row-cols-1  mx-sm-n-3 mx-n-4 no-scrollbar flex-nowrap">
+              <li class="col px-2 px-sm-7 max-w-1">
                 <div class="position-relative">
                   <img src="./img/product-3.png" alt="鞋子圖片" title="鞋子圖片">
                   <span class="bg-primary-100 py-2 px-7 text-primary-400 fs-7 fw-medium position-absolute top-0">
@@ -199,7 +209,7 @@
                   </span>
                 </div>
               </li>
-              <li class="col">
+              <li class="col px-2 px-sm-7 max-w-1">
                 <div class="position-relative">
                   <img src="./img/product.png" alt="鞋子圖片" title="鞋子圖片">
                   <span class="bg-primary-100 py-2 px-7 text-primary-400 fs-7 fw-medium position-absolute top-0">
@@ -207,7 +217,7 @@
                   </span>
                 </div>
               </li>
-              <li class="col">
+              <li class="col px-2 px-sm-7 max-w-1">
                 <div class="position-relative">
                   <img src="./img/product-6.png" alt="鞋子圖片" title="鞋子圖片">
                   <span class="bg-primary-100 py-2 px-7 text-primary-400 fs-7 fw-medium position-absolute top-0">
@@ -215,7 +225,7 @@
                   </span>
                 </div>
               </li>
-              <li class="col">
+              <li class="col px-2 px-sm-7 max-w-1">
                 <div class="position-relative">
                   <img src="./img/product-4.png" alt="鞋子圖片" title="鞋子圖片">
                   <span class="bg-primary-100 py-2 px-7 text-primary-400 fs-7 fw-medium position-absolute top-0">
