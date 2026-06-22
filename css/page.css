@@ -6,8 +6,9 @@
   margin-right: var(--spacing-0);
 }
 
-.new-arrival li:nth-last-child(-n + 2) {
-  margin-bottom: var(--spacing-0);
+.new-arrival li:nth-last-child(-n + 2),
+.series li:nth-last-child(-n + 2) {
+  margin-bottom: var(--spacing-0) !important;
 }
 
 .bg-hero {
@@ -18,7 +19,7 @@
 }
 
 .bg-cross {
-  background: url(../img/banner-co-branded.png);
+  background: url(../img/banner-co-branded-sm.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -64,8 +65,15 @@
 @media (min-width: 576px) {
   /* 背景 */
 
-  .bg-hero {
+  .bg-sm-hero {
     background: url(../img/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-sm-cross {
+    background: url(../img/banner-co-branded.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
