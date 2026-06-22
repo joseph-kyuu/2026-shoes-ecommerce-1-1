@@ -94,6 +94,8 @@
   !!!!!間距!!!!!
   =============
   */
+  /* 85px */
+  --spacing-19: calc(var(--general-size-base) * 5.3125);
   /* 6px */
   --spacing-18: calc(var(--general-size-base) * 0.375);
   /* 155px */
