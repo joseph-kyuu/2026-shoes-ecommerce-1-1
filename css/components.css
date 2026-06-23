@@ -99,3 +99,14 @@
 .no-scrollbar::-webkit-scrollbar {
   display: none; /* Chrome / Safari / Edge */
 }
+
+@media (min-width: 576px) {
+  /* 大按鈕 */
+  .btn-sm-large {
+    /* 內間距 */
+    padding-top: var(--spacing-m);
+    padding-bottom: var(--spacing-m);
+    padding-left: var(--spacing-l);
+    padding-right: var(--spacing-l);
+  }
+}
