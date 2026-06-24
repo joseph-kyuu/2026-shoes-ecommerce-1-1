@@ -410,6 +410,11 @@
   max-width: var(--max-m-1);
 }
 
+/* 196px */
+.max-w-2 {
+  max-width: var(--max-m-2);
+}
+
 /* RWD */
 @media (min-width: 576px) {
   .py-sm-hero {
