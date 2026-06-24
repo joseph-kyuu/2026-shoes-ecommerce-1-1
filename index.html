@@ -357,15 +357,16 @@
         </div>
       </section>
       <!-- 穿搭靈感 -->
-      <section class="py-9">
+      <section class="py-sm-9 py-15">
         <div class="container">
             <!-- 標題 -->
             <div class="mb-3">
-              <h2 class="fs-2 text-neutral-900 fw-bold lh-1p2">穿搭靈感
+              <h2 class="fs-sm-2
+              fs-4  text-neutral-900 fw-bold lh-1p2">穿搭靈感
             </h2>
             </div>
-            <!-- 穿搭照片  -->
-            <ul class="list-unstyled row row-cols-3 mx-n-1">
+            <!-- 穿搭照片 電腦板  -->
+            <ul class="list-unstyled row row-cols-3 mx-n-1 d-none d-md-flex">
               <!-- 第一欄 -->
               <li class="col px-1">
                 <div class="d-flex flex-column gap-2">
@@ -381,7 +382,7 @@
                       </a>
                     </li>
                   </ul>
-                  <a class="flex-grow" href="#">
+                  <a href="#">
                     <img src="./img/inspiration-3.png" alt="">
                   </a>
                 </div>
@@ -436,7 +437,39 @@
                   </ul>
                 </div>
               </li>
-      
+            </ul>
+            <!-- 穿搭照片 手機板  -->
+            <ul class="list-unstyled row row-cols-1 no-scrollbar flex-nowrap mx-n-4 mx-md-n-3 d-md-none">
+              <li class="col max-w-1 px-2 px-md-7">
+                <a href="#">
+                  <img src="./img/inspiration-1.png" alt="">
+                </a>
+              </li>
+              <li class="col max-w-1 px-2 px-md-7">
+                <a href="#">
+                  <img src="./img/inspiration-2.png" alt="">
+                </a>
+              </li>
+              <li class="col max-w-1 px-2 px-md-7 ">
+                <a href="#">
+                  <img src="./img/inspiration-3.png" alt="">
+                </a>
+              </li>
+              <li class="col max-w-1 px-2 px-md-7">
+                <a href="#">
+                  <img src="./img/inspiration-4.png" alt="">
+                </a>
+              </li>
+              <li class="col max-w-1 px-2 px-md-7">
+                <a href="#">
+                  <img src="./img/inspiration-5.png" alt="">
+                </a>
+              </li>
+              <li class="col max-w-1 px-2 px-md-7">
+                <a href="#">
+                  <img src="./img/inspiration-6.png" alt="">
+                </a>
+              </li>
             </ul>
         </div>
       </section>
@@ -445,26 +478,29 @@
     <!-- 優惠資訊、CTA、主選單、所有權 -->
     <footer>
       <!-- 優惠資訊、CTA -->
-      <section class="pt-5">
+      <section class="pt-sm-5 pt-4">
         <div
-          class="py-4 d-flex justify-content-center align-items-center bg-primary-200"
+          class="py-4 bg-primary-200"
         >
-          <!-- 優惠資訊 -->
-          <div class="me-4">
-            <h2 class="fs-4 fw-bold lh-1p2">加入會員取得 9 折優惠</h2>
-          </div>
+          <!-- 優惠資訊、CTA -->
+          <div class="container d-flex justify-content-center align-items-center ">
+            <!-- 優惠資訊 -->
+            <div class="me-sm-4 me-3">
+              <h2 class="fs-sm-4 fs-5 fw-bold lh-1p2">加入會員取得 9 折優惠</h2>
+            </div>
           <!-- CTA -->
-          <a class="btn btn-large btn-neutral-filled" href="＃">馬上註冊</a>
+          <a class="btn btn-sm-large btn-neutral-filled btn-small" href="＃">馬上註冊</a>
+          </div>
         </div>
       </section>
       <!-- 主選單、所有權 -->
-      <section class="py-9">
+      <section class="py-sm-9 py-10 px-7 ">
         <!-- 主選單 -->
-        <nav class="container mb-4">
+        <nav class=" mb-4">
           <ul
-            class="list-unstyled d-flex justify-content-between align-items-center"
+            class="list-unstyled d-flex justify-content-between align-items-sm-center flex-sm-row flex-column"
           >
-            <li>
+            <li class="mb-sm-0 mb-2">
               <a href="index.html">
                 <img
                   src="./img/svg/logo/logo.svg"
@@ -474,11 +510,11 @@
               </a>
             </li>
             <li>
-              <ul class="list-unstyled footer-nav d-flex">
-                <li class="me-6 py-7">
+              <ul class="list-unstyled footer-nav d-flex flex-sm-row flex-column ms-7 ms-sm-0">
+                <li class="me-sm-6 me-0 py-7">
                   <a class="text-neutral-900 fw-medium" href="#">商品列表</a>
                 </li>
-                <li class="me-6 py-7">
+                <li class="me-sm-6 me-0 py-7 ">
                   <a class="text-neutral-900 fw-medium" href="#">品牌故事</a>
                 </li>
               </ul>
@@ -486,7 +522,7 @@
           </ul>
         </nav>
         <!-- 所有權 -->
-        <div class="pt-10 text-center border-top border-neutral-300">
+        <div class="pt-10 text-center border-top border-neutral-300 ">
           <div class="mb-1">
             <p class="text-neutral-600 fs-7 fw-normal">
               Copyright ©2025 URBNSTYLE
