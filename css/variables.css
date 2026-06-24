@@ -164,4 +164,7 @@
 
   /* 300px */
   --max-m-1: calc(var(--general-size-base) * 18.75);
+
+  /* 196px */
+  --max-m-2: calc(var(--general-size-base) * 12.25);
 }

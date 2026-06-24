@@ -6,8 +6,16 @@
   margin-right: var(--spacing-0);
 }
 
+.products-list-nav li:last-child {
+  margin-bottom: var(--spacing-0) !important;
+}
+
 .new-arrival li:nth-last-child(-n + 2),
 .series li:nth-last-child(-n + 2) {
+  margin-bottom: var(--spacing-0) !important;
+}
+
+.products-list li:nth-last-child(-n + 3) {
   margin-bottom: var(--spacing-0) !important;
 }
 
@@ -59,6 +67,17 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* products_list */
+.bread li + li::before {
+  content: "/";
+  padding: 0 0.75rem;
+  color: var(--neutral-300);
+}
+
+.bread li a.bread-active {
+  color: var(--neutral-900);
 }
 
 /* RWD */
