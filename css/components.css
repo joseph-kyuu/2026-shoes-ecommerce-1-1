@@ -87,6 +87,18 @@
   background: var(--primary-200);
 }
 
+/* pagination */
+.page-item a:hover,
+.page-item-active {
+  background: var(--primary-300);
+}
+
+.page-disabled {
+  color: var(--disabled-neutral-900-o40);
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
 /* =========================
    ##### no-scroll-bar #####
    ========================= */

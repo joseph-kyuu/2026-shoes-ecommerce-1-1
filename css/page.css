@@ -2,8 +2,9 @@
 
 /* 判斷主選單最後一個 li */
 .main-nav a:last-child,
-.footer-nav li:last-child {
-  margin-right: var(--spacing-0);
+.footer-nav li:last-child,
+.page li.page-item:last-child {
+  margin-right: var(--spacing-0) !important;
 }
 
 .products-list-nav li:last-child {
