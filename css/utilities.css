@@ -146,7 +146,7 @@
 
 /* 
   =============
-  !!!!!間距!!!!!  下一次#18
+  !!!!!間距!!!!!  下一次#19
   =============
 */
 
@@ -164,6 +164,11 @@
 /* 12px */
 .p-7 {
   padding: var(--spacing-m);
+}
+
+/* 10px */
+.p-18 {
+  padding: var(--spacing-20);
 }
 
 /* padding-top、padding-bottom  */
@@ -270,6 +275,12 @@
   padding-right: var(--spacing-xs);
 }
 
+/* 16px */
+.px-3 {
+  padding-left: var(--spacing-s);
+  padding-right: var(--spacing-s);
+}
+
 /* 24px */
 .pt-4 {
   padding-top: var(--spacing-l);
@@ -305,7 +316,7 @@
 /* margin */
 /* 8px */
 .me-2 {
-  margin-right: var(--spacing-xs);
+  margin-right: var(--spacing-xs) !important;
 }
 
 /* 16px */
@@ -329,8 +340,13 @@
 }
 
 /* 12px */
+.me-7 {
+  margin-right: var(--spacing-m);
+}
+
+/* 12px */
 .ms-7 {
-  padding-left: var(--spacing-m);
+  margin-left: var(--spacing-m);
 }
 
 /* 4px */
@@ -413,6 +429,11 @@
 /* 196px */
 .max-w-2 {
   max-width: var(--max-m-2);
+}
+
+/* min-width */
+.min-w-1 {
+  min-width: var(--spacing-s);
 }
 
 /* RWD */
