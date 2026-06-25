@@ -73,7 +73,7 @@
 /* products_list */
 .bread li + li::before {
   content: "/";
-  padding: 0 0.75rem;
+  padding: 0 0.5rem;
   color: var(--neutral-300);
 }
 
@@ -97,5 +97,12 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  /* products_list */
+  .bread li + li::before {
+    content: "/";
+    padding: 0 0.75rem;
+    color: var(--neutral-300);
   }
 }

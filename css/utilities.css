@@ -484,6 +484,11 @@
     font-size: var(--fs-2) !important;
   }
 
+  /* 16px */
+  .fs-sm-6 {
+    font-size: var(--fs-6) !important;
+  }
+
   /* 40px */
   .fs-sm-1 {
     font-size: var(--fs-1) !important;
@@ -533,6 +538,12 @@
   .py-sm-9 {
     padding-top: var(--spacing-5xl);
     padding-bottom: var(--spacing-5xl);
+  }
+
+  /* 32px */
+  .py-sm-10 {
+    padding-top: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl);
   }
 
   /* 153px */
