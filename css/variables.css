@@ -171,4 +171,17 @@
 
   /* 196px */
   --max-m-2: calc(var(--general-size-base) * 12.25);
+
+  /* 526px */
+  --max-m-3: calc(var(--general-size-base) * 32.875);
+
+  /* 64px */
+  --max-m-4: calc(var(--general-size-base) * 4);
+
+  /* 
+  =============
+  !!!!!圓角!!!!!
+  =============
+  */
+  --border-radius-1: calc(var(--general-size-base) * 0.25);
 }
