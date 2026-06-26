@@ -431,12 +431,28 @@
   max-width: var(--max-m-2);
 }
 
+/* 526px */
+.max-w-3 {
+  max-width: var(--max-m-3);
+}
+
+/* 64px */
+.max-w-4 {
+  max-width: var(--max-m-4);
+}
+
 /* min-width */
 .min-w-1 {
   min-width: var(--spacing-s);
 }
 
-/* RWD */
+/* 
+  =============
+  !!!!!RWD!!!!!
+  =============
+*/
+
+/* RWD 576px */
 @media (min-width: 576px) {
   .py-sm-hero {
     padding-top: var(--spacing-hero) !important;
@@ -609,7 +625,7 @@
   }
 }
 
-/* RWD */
+/* RWD 768px */
 @media (min-width: 768px) {
   /* 12px */
   .px-md-7 {

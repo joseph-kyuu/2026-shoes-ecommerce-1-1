@@ -80,6 +80,24 @@
   border-color: transparent;
 }
 
+.btn-text-option {
+  background: var(--neutral-0);
+  border: 1px solid var(--neutral-300);
+  border-radius: var(--border-radius-1);
+}
+
+.btn-text-option:hover {
+  border: 1px solid var(--neutral-600);
+}
+
+.btn-check:checked + .btn-text-option {
+  border: 1px solid var(--neutral-900);
+}
+
+.btn-check:disabled + label {
+  pointer-events: none;
+}
+
 /* nav */
 .nav-phone:hover,
 .nav-phone:active,
