@@ -55,6 +55,13 @@
   color: var(--neutral-0);
 }
 
+/* functional */
+/* danger */
+
+.text-danger-300 {
+  color: var(--functional-dnager-300);
+}
+
 /* 背景顏色 */
 /* primary */
 .bg-primary-100 {
