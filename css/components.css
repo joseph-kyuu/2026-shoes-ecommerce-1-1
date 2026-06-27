@@ -83,7 +83,8 @@
 .btn-text-option {
   background: var(--neutral-0);
   border: 1px solid var(--neutral-300);
-  border-radius: var(--border-radius-1);
+  /* border-radius: var(--border-radius-1); */
+  cursor: pointer;
 }
 
 .btn-text-option:hover {
@@ -96,6 +97,33 @@
 
 .btn-check:disabled + label {
   pointer-events: none;
+  opacity: 0.4;
+}
+
+.btn-check + .btn-text-option-active {
+  border: 1px solid var(--neutral-900);
+}
+
+.btn-neutral-outlined {
+  color: var(--neutral-900);
+  border: 1px solid var(--neutral-900);
+}
+
+.btn-neutral-outlined:hover {
+  color: var(--neutral-0);
+  border: 1px solid var(--neutral-900);
+  background: var(--neutral-900);
+}
+
+.btn-neutral-outlined:active {
+  color: var(--neutral-0);
+  border: 1px solid var(--neutral-900);
+}
+
+.btn-neutral-outlined-active {
+  color: var(--neutral-0);
+  border: 1px solid var(--neutral-900);
+  background: var(--neutral-900);
 }
 
 /* nav */
