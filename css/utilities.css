@@ -541,8 +541,8 @@
 
   /* 12px */
   .px-sm-7 {
-    padding-left: var(--spacing-m);
-    padding-right: var(--spacing-m);
+    padding-left: var(--spacing-m) !important;
+    padding-right: var(--spacing-m) !important;
   }
 
   /* 24px */
