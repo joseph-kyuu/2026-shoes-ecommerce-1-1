@@ -178,6 +178,12 @@
   /* 64px */
   --max-m-4: calc(var(--general-size-base) * 4);
 
+  /* 120px */
+  --max-m-5: calc(var(--general-size-base) * 7.5);
+
+  /* 636px */
+  --max-m-6: calc(var(--general-size-base) * 39.75);
+
   /* 
   =============
   !!!!!圓角!!!!!

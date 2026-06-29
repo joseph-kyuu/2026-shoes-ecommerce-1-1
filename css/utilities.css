@@ -163,6 +163,11 @@
   padding: var(--spacing-xxs);
 }
 
+/* 8px */
+.p-2 {
+  padding: var(--spacing-xs);
+}
+
 /* 16px */
 .p-3 {
   padding: var(--spacing-s);
@@ -320,6 +325,11 @@
   padding-bottom: var(--spacing-xs);
 }
 
+/* 32px */
+.pb-10 {
+  padding-bottom: var(--spacing-xl);
+}
+
 /* margin */
 /* 8px */
 .me-2 {
@@ -448,6 +458,16 @@
   max-width: var(--max-m-4);
 }
 
+/* 120px */
+.max-w-5 {
+  max-width: var(--max-m-5);
+}
+
+/* 636px */
+.max-w-6 {
+  max-width: var(--max-m-6);
+}
+
 /* min-width */
 .min-w-1 {
   min-width: var(--spacing-s);
@@ -559,8 +579,8 @@
 
   /* 64px */
   .py-sm-9 {
-    padding-top: var(--spacing-5xl);
-    padding-bottom: var(--spacing-5xl);
+    padding-top: var(--spacing-5xl) !important;
+    padding-bottom: var(--spacing-5xl) !important;
   }
 
   /* 32px */
