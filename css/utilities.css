@@ -77,6 +77,17 @@
 }
 
 /* neutral */
+.bg-neutral-0 {
+  background: var(--neutral-0);
+}
+
+.bg-neutral-200 {
+  background: var(--neutral-200);
+}
+
+.bg-neutral-300 {
+  background: var(--neutral-300);
+}
 
 .bg-neutral-400 {
   background: var(--neutral-400);
@@ -153,7 +164,7 @@
 
 /* 
   =============
-  !!!!!間距!!!!!  下一次#19
+  !!!!!間距!!!!!  下一次#21
   =============
 */
 
@@ -256,6 +267,12 @@
   padding-bottom: var(--spacing-19);
 }
 
+/* 120px */
+.py-20 {
+  padding-top: var(--spacing-21);
+  padding-bottom: var(--spacing-21);
+}
+
 /* padding-left、padding-right */
 /* 4px */
 .px-1 {
@@ -291,6 +308,12 @@
 .px-3 {
   padding-left: var(--spacing-s);
   padding-right: var(--spacing-s);
+}
+
+/* 80px */
+.px-19 {
+  padding-left: var(--spacing-6xl);
+  padding-right: var(--spacing-6xl);
 }
 
 /* 24px */
@@ -471,6 +494,16 @@
 /* min-width */
 .min-w-1 {
   min-width: var(--spacing-s);
+}
+
+/* 
+  =============
+  !!!!!圓角!!!!! 
+  =============
+*/
+/* 12px */
+.radius-1 {
+  border-radius: var(--radius-md);
 }
 
 /* 

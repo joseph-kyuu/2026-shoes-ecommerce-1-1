@@ -8,7 +8,8 @@
 }
 
 .products-list-nav li:last-child,
-.favorite-list li:last-child {
+.favorite-list li:last-child,
+.login-input li:last-child {
   margin-bottom: var(--spacing-0) !important;
 }
 

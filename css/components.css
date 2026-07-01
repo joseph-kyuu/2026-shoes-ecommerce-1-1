@@ -145,6 +145,17 @@
   cursor: not-allowed;
 }
 
+/* auth */
+.auth {
+  border-bottom: solid 2px var(--neutral-300);
+}
+
+.auth:hover,
+.auth-active {
+  color: var(--neutral-900);
+  border-bottom: solid 2px var(--neutral-900);
+}
+
 /* =========================
    ##### no-scroll-bar #####
    ========================= */
@@ -156,6 +167,15 @@
 
 .no-scrollbar::-webkit-scrollbar {
   display: none; /* Chrome / Safari / Edge */
+}
+
+input::placeholder {
+  color: var(--neutral-900);
+}
+
+input:focus-visible {
+  outline: none;
+  box-shadow: none;
 }
 
 @media (min-width: 576px) {
