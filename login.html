@@ -81,25 +81,36 @@
       </nav>
     </header>
     <!-- main -->
-    <main class="py-sm-9 py-4">
-      <section class="container">
-        <div class="d-flex">
+    <main class="py-sm-9">
+      <section class="container px-sm-7 px-0">
+        <div class="d-flex flex-sm-row flex-column">
           <!-- 品牌廣告  -->
           <!-- 標題  -->
-          <div class="me-4 max-w-3">
-            <img src="./img/login.png" alt="品牌形象圖" />
+          <div class="me-sm-4 max-w-3">
+            <img
+              class="d-md-block d-none"
+              src="./img/login.png"
+              alt="品牌形象圖"
+            />
+            <img
+              class="d-sm-none flex-grow-1"
+              src="./img/login-sm.png"
+              alt="品牌形象圖"
+            />
           </div>
           <!-- 登入、註冊 -->
-          <div class="px-19 py-20 bg-neutral-200 radius-1 flex-grow-1">
-            <form action="">
+          <div
+            class="px-xl-19 py-sm-20 py-10 px-sm-7 bg-neutral-200 radius-sm-1 flex-grow-1"
+          >
+            <form class="px-sm-0 px-7" action="">
               <!-- 標題 -->
-              <div class="mb-10">
+              <div class="mb-sm-10 mb-4">
                 <h2 class="fs-3 text-neutral-900 fw-bold lh-1p2 text-center">
                   歡迎 !
                 </h2>
               </div>
               <!-- 切換 -->
-              <ul class="list-unstyled d-flex mb-10">
+              <ul class="list-unstyled d-flex mb-sm-10 mb-4">
                 <li class="flex-grow-1 text-center">
                   <a
                     class="py-7 text-neutral-600 fw-bold lh-1p2 auth auth-active"
