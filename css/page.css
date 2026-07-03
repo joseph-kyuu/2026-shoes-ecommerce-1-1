@@ -72,6 +72,15 @@
   background-repeat: no-repeat;
 }
 
+.bg-story {
+  background:
+    linear-gradient(var(--mask-black-o40), var(--mask-black-o40)),
+    url(../img/hero-sm.png);
+  background-size: cover;
+  background-position: center 55%;
+  background-repeat: no-repeat;
+}
+
 /* products_list */
 .bread li + li::before {
   content: "/";
