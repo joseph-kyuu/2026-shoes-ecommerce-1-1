@@ -164,7 +164,7 @@
 
 /* 
   =============
-  !!!!!間距!!!!!  下一次#21
+  !!!!!間距!!!!!  下一次#22
   =============
 */
 
@@ -192,6 +192,11 @@
 /* 12px */
 .p-7 {
   padding: var(--spacing-m);
+}
+
+/* 32px */
+.p-10 {
+  padding: var(--spacing-xl);
 }
 
 /* 10px */
@@ -319,6 +324,12 @@
 .px-19 {
   padding-left: var(--spacing-6xl);
   padding-right: var(--spacing-6xl);
+}
+
+/* 110px */
+.px-21 {
+  padding-left: var(--spacing-22);
+  padding-right: var(--spacing-22);
 }
 
 /* 24px */
