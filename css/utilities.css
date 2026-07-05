@@ -110,6 +110,10 @@
   border: var(--neutral-300);
 }
 
+.border-neutral-900 {
+  border-color: var(--neutral-900) !important;
+}
+
 /* 
   ================
   !!!!!字體尺寸!!!!!
@@ -358,6 +362,16 @@
   padding-left: var(--spacing-13);
 }
 
+/* 8px */
+.ps-2 {
+  padding-left: var(--spacing-xs);
+}
+
+/* 12px */
+.ps-7 {
+  padding-left: var(--spacing-m);
+}
+
 /* padding-bottom */
 /* 8px */
 .pb-2 {
@@ -367,6 +381,16 @@
 /* 32px */
 .pb-10 {
   padding-bottom: var(--spacing-xl);
+}
+
+/* 48px */
+.pb-5 {
+  padding-bottom: var(--spacing-3xl);
+}
+
+/* 8px */
+.pe-2 {
+  padding-right: var(--spacing-xs);
 }
 
 /* margin */
