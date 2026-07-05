@@ -9,7 +9,9 @@
 
 .products-list-nav li:last-child,
 .favorite-list li:last-child,
-.login-input li:last-child {
+.login-input li:last-child,
+.brand-list li:last-child,
+.brand-story div:last-child {
   margin-bottom: var(--spacing-0) !important;
 }
 
