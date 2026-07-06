@@ -168,7 +168,7 @@
 
 /* 
   =============
-  !!!!!間距!!!!!  下一次#22
+  !!!!!間距!!!!!  下一次#23
   =============
 */
 
@@ -285,6 +285,12 @@
 .py-20 {
   padding-top: var(--spacing-21);
   padding-bottom: var(--spacing-21);
+}
+
+/* 88px */
+.py-22 {
+  padding-top: var(--spacing-23);
+  padding-bottom: var(--spacing-23);
 }
 
 /* padding-left、padding-right */
@@ -637,6 +643,11 @@
     padding-bottom: var(--spacing-xs);
   }
 
+  /* 48px */
+  .pb-sm-5 {
+    padding-bottom: var(--spacing-3xl) !important;
+  }
+
   /* 12px */
   .px-sm-7 {
     padding-left: var(--spacing-m) !important;
@@ -745,6 +756,11 @@
   .mx-sm-n-3 {
     margin-left: var(--spacing-n-2);
     margin-right: var(--spacing-n-2);
+  }
+
+  /* border */
+  .border-sm-bottom {
+    border-bottom: solid 1px var(--neutral-300);
   }
 }
 
