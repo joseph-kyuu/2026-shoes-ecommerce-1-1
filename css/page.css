@@ -79,7 +79,7 @@
     linear-gradient(var(--mask-black-o40), var(--mask-black-o40)),
     url(../img/hero-sm.png);
   background-size: cover;
-  background-position: center 55%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -107,6 +107,15 @@
 
   .bg-sm-cross {
     background: url(../img/banner-co-branded.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-sm-story {
+    background:
+      linear-gradient(var(--mask-black-o40), var(--mask-black-o40)),
+      url(../img/hero.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
