@@ -2,12 +2,25 @@
 
 /* 判斷主選單最後一個 li */
 .main-nav a:last-child,
-.footer-nav li:last-child {
-  margin-right: var(--spacing-0);
+.footer-nav li:last-child,
+.page li.page-item:last-child {
+  margin-right: var(--spacing-0) !important;
+}
+
+.products-list-nav li:last-child,
+.favorite-list li:last-child,
+.login-input li:last-child,
+.brand-list li:last-child,
+.brand-story div:last-child {
+  margin-bottom: var(--spacing-0) !important;
 }
 
 .new-arrival li:nth-last-child(-n + 2),
 .series li:nth-last-child(-n + 2) {
+  margin-bottom: var(--spacing-0) !important;
+}
+
+.products-list li:nth-last-child(-n + 3) {
   margin-bottom: var(--spacing-0) !important;
 }
 
@@ -61,6 +74,26 @@
   background-repeat: no-repeat;
 }
 
+.bg-story {
+  background:
+    linear-gradient(var(--mask-black-o40), var(--mask-black-o40)),
+    url(../img/hero-sm.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* products_list */
+.bread li + li::before {
+  content: "/";
+  padding: 0 0.5rem;
+  color: var(--neutral-300);
+}
+
+.bread li a.bread-active {
+  color: var(--neutral-900);
+}
+
 /* RWD */
 @media (min-width: 576px) {
   /* 背景 */
@@ -77,5 +110,21 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .bg-sm-story {
+    background:
+      linear-gradient(var(--mask-black-o40), var(--mask-black-o40)),
+      url(../img/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* products_list */
+  .bread li + li::before {
+    content: "/";
+    padding: 0 0.75rem;
+    color: var(--neutral-300);
   }
 }

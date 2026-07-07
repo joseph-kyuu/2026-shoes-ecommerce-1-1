@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nelson的部落格</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- GoogleFont -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+    <!-- BS5 CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <!-- 選單、會員按鈕、hero -->
+    <header>
+      <!-- 選單、會員按鈕 -->
+      <!-- 桌面版 -->
+      <nav class="container d-flex justify-content-between py-md3 p-7">
+        <!-- 選單 -->
+        <ul class="list-unstyled d-flex align-items-center">
+          <li class="me-5">
+            <a href="index.html">
+              <h1>
+                <img
+                  src="./img/svg/logo/logo.svg"
+                  alt="品牌標誌"
+                  title="品牌標誌"
+                />
+              </h1>
+            </a>
+          </li>
+          <li class="me-6 d-flex align-items-center main-nav d-none d-sm-flex">
+            <a class="py-7 fw-medium me-6" href="＃">品牌故事</a>
+            <a class="py-7 fw-medium me-6" href="#">商品列表</a>
+          </li>
+        </ul>
+        <!-- 會員按鈕 -->
+        <a class="p-7" href="#">
+          <img
+            src="./img/svg/icon/person.svg"
+            alt="會員標誌"
+            title="會員標誌"
+          />
+        </a>
+      </nav>
+      <!-- 手機版 -->
+      <nav>
+        <ul class="list-unstyled d-flex d-sm-none text-center">
+          <li class="w-100">
+            <a
+              class="py-7 fw-medium w-100 bg-primary-100 nav-phone active"
+              href="＃"
+              >品牌故事</a
+            >
+          </li>
+          <li class="w-100">
+            <a class="py-7 fw-medium bg-primary-100 w-100 nav-phone" href="#"
+              >商品列表</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- 商品圖片、商品說明 -->
+      <section class="container py-sm-9">
+        <div class="row">
+          <!-- 商品圖片 -->
+          <div class="col">
+            <!-- 商品圖片  -->
+            <ul class="list-unstyled d-flex gap-2 flex-wrap">
+              <li>
+                <img src="./img/image-0.png" alt="鞋子" />
+              </li>
+              <li>
+                <img src="./img/image-01.png" alt="鞋子" />
+              </li>
+              <li>
+                <img src="./img/image-02.png" alt="鞋子" />
+              </li>
+              <li>
+                <img src="./img/image-03.png" alt="鞋子" />
+              </li>
+              <li>
+                <img src="./img/image-04.png" alt="鞋子" />
+              </li>
+              <li>
+                <img src="./img/image-05.png" alt="鞋子" />
+              </li>
+              <li>
+                <img src="./img/image-06.png" alt="鞋子" />
+              </li>
+              <li>
+                <img src="./img/image-07.png" alt="鞋子" />
+              </li>
+            </ul>
+          </div>
+          <!-- 商品說明 -->
+          <div class="col max-w-3">
+            <!-- 麵包屑、標題、價格、介紹 -->
+            <div class="mb-10">
+              <!-- 麵包屑 -->
+              <nav class="mb-sm-7 mb-2">
+                <ol class="list-unstyled d-flex bread">
+                  <li class="d-flex">
+                    <a class="text-neutral-600 fw-medium fs-7 fs-sm-6" href="#"
+                      >首頁</a
+                    >
+                  </li>
+                  <li class="d-flex">
+                    <a class="text-neutral-600 fw-medium fs-7 fs-sm-6" href="#"
+                      >女鞋</a
+                    >
+                  </li>
+                  <li class="d-flex">
+                    <a class="text-neutral-600 fw-medium fs-7 fs-sm-6" href="#"
+                      >滑板鞋</a
+                    >
+                  </li>
+                  <li class="d-flex">
+                    <a
+                      class="text-neutral-900 fw-medium bread-active fs-7 fs-sm-6"
+                      href="#"
+                      >Platform 404</a
+                    >
+                  </li>
+                </ol>
+              </nav>
+              <!-- 商品標題 -->
+              <div class="mb-3">
+                <h2 class="fs-2 fw-bold lh-1p2">Platform 404</h2>
+              </div>
+              <!-- 商品價格 -->
+              <div class="d-flex align-items-center mb-3">
+                <div class="me-2">
+                  <p class="fs-sm-5 text-primary-400 fw-bold lh-1p2">
+                    NT$2,600
+                  </p>
+                </div>
+                <p
+                  class="fs-7 fw-normal neutral-500 text-decoration-line-through"
+                >
+                  NT$3,200
+                </p>
+              </div>
+              <!-- 商品介紹 -->
+              <div>
+                <div class="mb-7">
+                  <p class="text-neutral-900 fw-normal">
+                    Platform 404
+                    以柔和奶白為底，搭配深藍色皮革點綴，走在街上自帶回頭率。鞋型採用復古運動風輪廓，結合輕量厚底與柔軟泡棉鞋舌，兼顧美感與舒適。
+                  </p>
+                </div>
+                <p class="text-neutral-900 fw-normal">
+                  鞋身選用柔軟皮革材質，打造出清新卻不失個性的氛圍，並以鞋面透氣孔設計提升穿著體驗，兼顧質感與舒適度，適合日常長時間著用。無論是街頭穿搭、日常通勤或週末出遊都能輕鬆駕馭。
+                </p>
+              </div>
+            </div>
+            <!-- 顏色、尺寸、CTA -->
+            <div class="mb-10">
+              <!-- 顏色 -->
+              <div class="mb-10">
+                <!-- 標題 -->
+                <div class="mb-2">
+                  <h3 class="fs-6 text-neutral-900 fw-normal">顏色</h3>
+                </div>
+                <!-- 選項 -->
+                <ul class="list-unstyled d-flex gap-2">
+                  <li>
+                    <a href="#">
+                      <div class="mb-1">
+                        <img
+                          class="max-w-4"
+                          src="./img/image-0.png"
+                          alt="鞋子"
+                        />
+                      </div>
+                      <p class="text-neutral-600 fw-medium text-center">藍色</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="mb-1">
+                        <img
+                          class="max-w-4"
+                          src="./img/product-7.png"
+                          alt="鞋子"
+                        />
+                      </div>
+                      <p class="text-neutral-600 fw-medium text-center">
+                        卡其色
+                      </p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- 尺寸 -->
+              <div class="mb-5">
+                <!-- 標題 -->
+                <div class="mb-2">
+                  <h3 class="fs-6 text-neutral-900 fw-normal">尺寸</h3>
+                </div>
+                <!-- 選項 -->
+                <ul class="list-unstyled gap-2 d-flex flex-wrap mb-2">
+                  <li>
+                    <input type="checkbox" class="btn-check" id="option1" />
+                    <label
+                      class="btn btn-large btn-text-option btn-text-option-active text-neutral-900 fw-medium"
+                      for="option1"
+                    >
+                      35(22.5cm)
+                    </label>
+                  </li>
+                  <li>
+                    <input type="checkbox" class="btn-check" id="option2" />
+                    <label
+                      class="btn btn-large btn-text-option text-neutral-900 fw-medium"
+                      for="option2"
+                    >
+                      36(23.0cm)
+                    </label>
+                  </li>
+                  <li>
+                    <input type="checkbox" class="btn-check" id="option3" />
+                    <label
+                      class="btn btn-large btn-text-option text-neutral-900 fw-medium"
+                      for="option3"
+                    >
+                      37(23.5cm)
+                    </label>
+                  </li>
+                  <li>
+                    <input type="checkbox" class="btn-check" id="option4" />
+                    <label
+                      class="btn btn-large btn-text-option text-neutral-900 fw-medium"
+                      for="option4"
+                    >
+                      38(24.0cm)
+                    </label>
+                  </li>
+                  <li>
+                    <input type="checkbox" class="btn-check" id="option5" />
+                    <label
+                      class="btn btn-large btn-text-option text-neutral-900 fw-medium"
+                      for="option5"
+                    >
+                      39(24.5cm)
+                    </label>
+                  </li>
+                  <li>
+                    <input type="checkbox" class="btn-check" id="option6" />
+                    <label
+                      class="btn btn-large btn-text-option text-neutral-900 fw-medium"
+                      for="option6"
+                    >
+                      40(25.0cm)
+                    </label>
+                  </li>
+                  <li>
+                    <input type="checkbox" class="btn-check" id="option7" />
+                    <label
+                      class="btn btn-large btn-text-option text-neutral-900 fw-medium"
+                      for="option7"
+                    >
+                      41(26.0cm)
+                    </label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      class="btn-check"
+                      id="option8"
+                      disabled
+                    />
+                    <label
+                      class="btn btn-large btn-text-option text-neutral-900 fw-medium"
+                      for="option8"
+                      disabled
+                    >
+                      42(26.5cm)
+                    </label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      class="btn-check"
+                      id="option9"
+                      disabled
+                    />
+                    <label
+                      class="btn btn-large btn-text-option text-neutral-900 fw-medium"
+                      for="option9"
+                      disabled
+                    >
+                      43(27.0cm)
+                    </label>
+                  </li>
+                </ul>
+                <p class="fs-7 text-danger-300 fw-normal">僅剩 3 雙</p>
+              </div>
+              <!-- CTA -->
+              <ul class="list-unstyled gap-2 d-flex">
+                <li class="w-50">
+                  <a
+                    class="btn btn-large d-flex justify-content-center align-items-center gap-2 btn-neutral-outlined"
+                    href="#"
+                  >
+                    <svg
+                      class="d-flex justify-content-center align-items-center g"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.99987 3.43506L9.10362 2.51381C6.99987 0.351311 3.14237 1.09756 1.74987 3.81631C1.09612 5.09506 0.948619 6.94131 2.14237 9.29756C3.29237 11.5663 5.68487 14.2838 9.99987 17.2438C14.3149 14.2838 16.7061 11.5663 17.8574 9.29756C19.0511 6.94006 18.9049 5.09506 18.2499 3.81631C16.8574 1.09756 12.9999 0.350061 10.8961 2.51256L9.99987 3.43506ZM9.99987 18.7501C-9.16638 6.08506 4.09862 -3.79994 9.77987 1.42881C9.85487 1.49756 9.92862 1.56881 9.99987 1.64256C10.0704 1.56888 10.1438 1.49799 10.2199 1.43006C15.8999 -3.80244 29.1661 6.08381 9.99987 18.7501Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <span>加入收藏</span>
+                  </a>
+                </li>
+                <li class="w-50">
+                  <a
+                    class="btn btn-large d-flex justify-content-center align-items-center gap-2 btn-neutral-outlined btn-neutral-outlined-active"
+                    href="#"
+                  >
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.0002 1.25C10.6633 1.25 11.2992 1.51339 11.768 1.98223C12.2368 2.45107 12.5002 3.08696 12.5002 3.75V6.25H7.50023V3.75C7.50023 3.08696 7.76363 2.45107 8.23247 1.98223C8.70131 1.51339 9.33719 1.25 10.0002 1.25V1.25ZM13.7502 6.25V3.75C13.7502 2.75544 13.3551 1.80161 12.6519 1.09835C11.9486 0.395088 10.9948 0 10.0002 0C9.00567 0 8.05185 0.395088 7.34858 1.09835C6.64532 1.80161 6.25023 2.75544 6.25023 3.75V6.25H4.20023C3.75133 6.2501 3.31735 6.41125 2.97718 6.70417C2.63701 6.99709 2.41322 7.40233 2.34648 7.84625L1.06274 16.4125C0.99622 16.857 1.02636 17.3106 1.1511 17.7423C1.27584 18.1741 1.49224 18.5739 1.78554 18.9144C2.07885 19.255 2.44215 19.5282 2.85067 19.7155C3.25919 19.9029 3.70331 19.9999 4.15273 20H15.8465C16.296 20.0001 16.7403 19.9032 17.149 19.7159C17.5576 19.5287 17.9211 19.2554 18.2145 18.9149C18.508 18.5744 18.7245 18.1745 18.8493 17.7426C18.9741 17.3108 19.0043 16.8571 18.9377 16.4125L17.6527 7.84625C17.586 7.40254 17.3624 6.99747 17.0225 6.70458C16.6826 6.41169 16.2489 6.2504 15.8002 6.25H13.7502ZM12.5002 7.5V9.375C12.5002 9.54076 12.5661 9.69973 12.6833 9.81694C12.8005 9.93415 12.9595 10 13.1252 10C13.291 10 13.45 9.93415 13.5672 9.81694C13.6844 9.69973 13.7502 9.54076 13.7502 9.375V7.5H15.799C15.9486 7.50015 16.0932 7.55397 16.2065 7.65168C16.3198 7.7494 16.3943 7.88452 16.4165 8.0325L17.7015 16.5963C17.7416 16.863 17.7237 17.1353 17.6489 17.3945C17.5742 17.6537 17.4444 17.8937 17.2684 18.0982C17.0924 18.3026 16.8744 18.4667 16.6292 18.5792C16.3841 18.6917 16.1175 18.7499 15.8477 18.75H4.15273C3.88298 18.7499 3.61641 18.6917 3.37123 18.5792C3.12605 18.4667 2.90802 18.3026 2.73205 18.0982C2.55607 17.8937 2.42629 17.6537 2.35155 17.3945C2.27681 17.1353 2.25888 16.863 2.29898 16.5963L3.58399 8.0325C3.6061 7.88473 3.68041 7.74978 3.79347 7.65209C3.90652 7.5544 4.05082 7.50045 4.20023 7.5H6.25023V9.375C6.25023 9.54076 6.31608 9.69973 6.43329 9.81694C6.5505 9.93415 6.70947 10 6.87523 10C7.041 10 7.19997 9.93415 7.31718 9.81694C7.43439 9.69973 7.50023 9.54076 7.50023 9.375V7.5H12.5002Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <span>加入收藏</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- 材質、須知、保養 -->
+            <ul class="list-unstyled">
+              <li class="py-7 border-bottom border-neutral-300">
+                <div class="mb-1">
+                  <h3 class="fs-6 text-neutral-900 fw-medium">商品材質</h3>
+                </div>
+                <p class="text-neutral-600 fw-normal">
+                  鞋面：合成皮革（Synthetic Leather）<br />
+                  內裡：透氣網布材質，提升舒適與排汗性
+                  <br />
+                  鞋底：EVA輕量發泡橡膠，具備良好緩震與止滑效果
+                  <br />
+                  鞋帶：聚酯纖維，耐拉扯不易鬆脫
+                </p>
+              </li>
+              <li class="py-7 border-bottom border-neutral-300">
+                <div class="mb-1">
+                  <h3 class="fs-6 text-neutral-900 fw-medium">商品材質</h3>
+                </div>
+                <p class="text-neutral-600 fw-normal">
+                  商品顏色因螢幕顯示可能略有差異，請以實品為準。
+                  建議首次穿著前試穿確認尺寸，避免影響退換貨權益。
+                  本商品為限量發售，庫存有限，如需更換尺寸請儘早聯繫客服協助處理。
+                </p>
+              </li>
+              <li class="py-7 border-bottom border-neutral-300">
+                <div class="mb-1">
+                  <h3 class="fs-6 text-neutral-900 fw-medium">商品材質</h3>
+                </div>
+                <p class="text-neutral-600 fw-normal">
+                  建議以乾布或微濕軟布擦拭表面汙漬，避免機洗或長時間浸水。
+                  收納時請放置於乾燥通風處，避免日曬及高溫導致變形或龜裂。
+                  若需深層清潔，建議使用中性清潔劑並搭配柔刷輕刷，勿使用漂白水或強酸強鹼清潔劑。
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- 你可能也喜歡 -->
+      <section class="py-5">
+        <div class="container">
+          <!-- 標題 -->
+          <div class="mb-3">
+            <h2 class="fs-sm-2 fs-4 text-neutral-900 fw-bold lh-1p2">
+              你可能會喜歡
+            </h2>
+          </div>
+          <!-- 商品列表 -->
+          <ul
+            class="row list-unstyled row-cols-md-4 row-cols-sm-2 row-cols-1 mx-sm-n-3 mx-n-4 no-scrollbar flex-nowrap"
+          >
+            <li class="col px-2 px-sm-7">
+              <a href="#">
+                <div class="mb-7">
+                  <img
+                    src="./img/product-2.png"
+                    alt="鞋子圖片"
+                    title="鞋子圖片"
+                  />
+                </div>
+                <div>
+                  <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                    Melty Kiss
+                  </h2>
+                  <p class="text-neutral-900 fw-medium">NT$4,000</p>
+                </div>
+              </a>
+            </li>
+            <li class="col px-2 px-sm-7">
+              <a href="#">
+                <div class="mb-7">
+                  <img
+                    src="./img/product-3.png"
+                    alt="鞋子圖片"
+                    title="鞋子圖片"
+                  />
+                </div>
+                <div>
+                  <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                    Melty Kiss
+                  </h2>
+                  <p class="text-neutral-900 fw-medium">NT$4,000</p>
+                </div>
+              </a>
+            </li>
+            <li class="col px-2 px-sm-7">
+              <a href="#">
+                <div class="mb-7">
+                  <img
+                    src="./img/product-4.png"
+                    alt="鞋子圖片"
+                    title="鞋子圖片"
+                  />
+                </div>
+                <div>
+                  <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">BOOMBLOK</h2>
+                  <p class="text-neutral-900 fw-medium">NT$3,200</p>
+                </div>
+              </a>
+            </li>
+            <li class="col px-2 px-sm-7">
+              <a href="#">
+                <div class="mb-7">
+                  <img
+                    src="./img/product-7.png"
+                    alt="鞋子圖片"
+                    title="鞋子圖片"
+                  />
+                </div>
+                <div>
+                  <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                    Sugar Snap
+                  </h2>
+                  <p class="text-neutral-900 fw-medium">NT$3,200</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <!-- 優惠資訊、CTA、主選單、所有權 -->
+    <footer>
+      <!-- 優惠資訊、CTA -->
+      <section class="pt-sm-5 pt-4">
+        <div class="py-4 bg-primary-200">
+          <!-- 優惠資訊、CTA -->
+          <div
+            class="container d-flex justify-content-center align-items-center"
+          >
+            <!-- 優惠資訊 -->
+            <div class="me-sm-4 me-3">
+              <h2 class="fs-sm-4 fs-5 fw-bold lh-1p2">加入會員取得 9 折優惠</h2>
+            </div>
+            <!-- CTA -->
+            <a class="btn btn-sm-large btn-neutral-filled btn-small" href="＃"
+              >馬上註冊</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- 主選單、所有權 -->
+      <section class="py-sm-9 py-10 px-7">
+        <!-- 主選單 -->
+        <nav class="mb-4">
+          <ul
+            class="list-unstyled d-flex justify-content-between align-items-sm-center flex-sm-row flex-column"
+          >
+            <li class="mb-sm-0 mb-2">
+              <a href="index.html">
+                <img
+                  src="./img/svg/logo/logo.svg"
+                  alt="品牌標誌"
+                  title="品牌標誌"
+                />
+              </a>
+            </li>
+            <li>
+              <ul
+                class="list-unstyled footer-nav d-flex flex-sm-row flex-column ms-7 ms-sm-0"
+              >
+                <li class="me-sm-6 me-0 py-7">
+                  <a class="text-neutral-900 fw-medium" href="#">商品列表</a>
+                </li>
+                <li class="me-sm-6 me-0 py-7">
+                  <a class="text-neutral-900 fw-medium" href="#">品牌故事</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- 所有權 -->
+        <div class="pt-10 text-center border-top border-neutral-300">
+          <div class="mb-1">
+            <p class="text-neutral-600 fs-7 fw-normal">
+              Copyright ©2025 URBNSTYLE
+            </p>
+          </div>
+          <p class="text-neutral-600 fs-7 fw-normal">All Rights Reserved.</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

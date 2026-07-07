@@ -40,8 +40,10 @@
   --functional-info-300: #3087db;
   /* black */
   --black-rgb: 0, 0, 0;
+  --neutral-900-rgb: 33, 37, 41;
   /* RGB */
   --mask-black-o40: rgba(var(--black-rgb), 0.4);
+  --disabled-neutral-900-o40: rgba(var(--neutral-900-rgb), 0.4);
 
   /* 
   =================
@@ -94,6 +96,14 @@
   !!!!!間距!!!!!
   =============
   */
+  /* 88px */
+  --spacing-23: calc(var(--general-size-base) * 5.5);
+  /* 110px */
+  --spacing-22: calc(var(--general-size-base) * 6.875);
+  /* 120px */
+  --spacing-21: calc(var(--general-size-base) * 7.5);
+  /* 10px */
+  --spacing-20: calc(var(--general-size-base) * 0.625);
   /* 85px */
   --spacing-19: calc(var(--general-size-base) * 5.3125);
   /* 6px */
@@ -164,4 +174,26 @@
 
   /* 300px */
   --max-m-1: calc(var(--general-size-base) * 18.75);
+
+  /* 196px */
+  --max-m-2: calc(var(--general-size-base) * 12.25);
+
+  /* 526px */
+  --max-m-3: calc(var(--general-size-base) * 32.875);
+
+  /* 64px */
+  --max-m-4: calc(var(--general-size-base) * 4);
+
+  /* 120px */
+  --max-m-5: calc(var(--general-size-base) * 7.5);
+
+  /* 636px */
+  --max-m-6: calc(var(--general-size-base) * 39.75);
+
+  /* 
+  =============
+  !!!!!圓角!!!!!
+  =============
+  */
+  --border-radius-1: calc(var(--general-size-base) * 0.25);
 }
