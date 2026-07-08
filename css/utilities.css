@@ -709,7 +709,7 @@
 
   /* 40px */
   .me-sm-6 {
-    margin-right: var(--spacing-2xl);
+    margin-right: var(--spacing-2xl) !important;
   }
 
   /* 12px */
