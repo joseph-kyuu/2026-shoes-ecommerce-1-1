@@ -77,6 +77,17 @@
 }
 
 /* neutral */
+.bg-neutral-0 {
+  background: var(--neutral-0);
+}
+
+.bg-neutral-200 {
+  background: var(--neutral-200);
+}
+
+.bg-neutral-300 {
+  background: var(--neutral-300);
+}
 
 .bg-neutral-400 {
   background: var(--neutral-400);
@@ -97,6 +108,10 @@
 /* 外邊框顏色 */
 .border-neutral-300 {
   border: var(--neutral-300);
+}
+
+.border-neutral-900 {
+  border-color: var(--neutral-900) !important;
 }
 
 /* 
@@ -153,7 +168,7 @@
 
 /* 
   =============
-  !!!!!間距!!!!!  下一次#19
+  !!!!!間距!!!!!  下一次#23
   =============
 */
 
@@ -161,6 +176,16 @@
 /* 4px */
 .p-1 {
   padding: var(--spacing-xxs);
+}
+
+/* 6px */
+.p-19 {
+  padding: var(--spacing-18);
+}
+
+/* 8px */
+.p-2 {
+  padding: var(--spacing-xs);
 }
 
 /* 16px */
@@ -171,6 +196,11 @@
 /* 12px */
 .p-7 {
   padding: var(--spacing-m);
+}
+
+/* 32px */
+.p-10 {
+  padding: var(--spacing-xl);
 }
 
 /* 10px */
@@ -251,6 +281,18 @@
   padding-bottom: var(--spacing-19);
 }
 
+/* 120px */
+.py-20 {
+  padding-top: var(--spacing-21);
+  padding-bottom: var(--spacing-21);
+}
+
+/* 88px */
+.py-22 {
+  padding-top: var(--spacing-23);
+  padding-bottom: var(--spacing-23);
+}
+
 /* padding-left、padding-right */
 /* 4px */
 .px-1 {
@@ -288,6 +330,18 @@
   padding-right: var(--spacing-s);
 }
 
+/* 80px */
+.px-19 {
+  padding-left: var(--spacing-6xl);
+  padding-right: var(--spacing-6xl);
+}
+
+/* 110px */
+.px-21 {
+  padding-left: var(--spacing-22);
+  padding-right: var(--spacing-22);
+}
+
 /* 24px */
 .pt-4 {
   padding-top: var(--spacing-l);
@@ -314,10 +368,35 @@
   padding-left: var(--spacing-13);
 }
 
+/* 8px */
+.ps-2 {
+  padding-left: var(--spacing-xs);
+}
+
+/* 12px */
+.ps-7 {
+  padding-left: var(--spacing-m);
+}
+
 /* padding-bottom */
 /* 8px */
 .pb-2 {
   padding-bottom: var(--spacing-xs);
+}
+
+/* 32px */
+.pb-10 {
+  padding-bottom: var(--spacing-xl);
+}
+
+/* 48px */
+.pb-5 {
+  padding-bottom: var(--spacing-3xl);
+}
+
+/* 8px */
+.pe-2 {
+  padding-right: var(--spacing-xs);
 }
 
 /* margin */
@@ -448,9 +527,29 @@
   max-width: var(--max-m-4);
 }
 
+/* 120px */
+.max-w-5 {
+  max-width: var(--max-m-5);
+}
+
+/* 636px */
+.max-w-6 {
+  max-width: var(--max-m-6);
+}
+
 /* min-width */
 .min-w-1 {
   min-width: var(--spacing-s);
+}
+
+/* 
+  =============
+  !!!!!圓角!!!!! 
+  =============
+*/
+/* 12px */
+.radius-1 {
+  border-radius: var(--radius-md);
 }
 
 /* 
@@ -523,6 +622,11 @@
   =============
 */
 
+  /* 8px */
+  .p-sm-2 {
+    padding: var(--spacing-xs);
+  }
+
   /* 100px */
   .pt-sm-11 {
     padding-top: var(--spacing-14) !important;
@@ -539,6 +643,11 @@
     padding-bottom: var(--spacing-xs);
   }
 
+  /* 48px */
+  .pb-sm-5 {
+    padding-bottom: var(--spacing-3xl) !important;
+  }
+
   /* 12px */
   .px-sm-7 {
     padding-left: var(--spacing-m) !important;
@@ -551,6 +660,18 @@
     padding-right: var(--spacing-l);
   }
 
+  /* 80px */
+  .px-sm-19 {
+    padding-left: var(--spacing-6xl);
+    padding-right: var(--spacing-6xl);
+  }
+
+  /* 32px */
+  .px-sm-10 {
+    padding-left: var(--spacing-xl);
+    padding-right: var(--spacing-xl);
+  }
+
   /* 48px */
   .py-sm-5 {
     padding-top: var(--spacing-3xl);
@@ -559,8 +680,8 @@
 
   /* 64px */
   .py-sm-9 {
-    padding-top: var(--spacing-5xl);
-    padding-bottom: var(--spacing-5xl);
+    padding-top: var(--spacing-5xl) !important;
+    padding-bottom: var(--spacing-5xl) !important;
   }
 
   /* 32px */
@@ -575,6 +696,12 @@
     padding-bottom: var(--spacing-16);
   }
 
+  /* 120px */
+  .py-sm-20 {
+    padding-top: var(--spacing-21);
+    padding-bottom: var(--spacing-21);
+  }
+
   /* 24px */
   .me-sm-4 {
     margin-right: var(--spacing-l);
@@ -582,7 +709,7 @@
 
   /* 40px */
   .me-sm-6 {
-    margin-right: var(--spacing-2xl);
+    margin-right: var(--spacing-2xl) !important;
   }
 
   /* 12px */
@@ -630,6 +757,11 @@
     margin-left: var(--spacing-n-2);
     margin-right: var(--spacing-n-2);
   }
+
+  /* border */
+  .border-sm-bottom {
+    border-bottom: solid 1px var(--neutral-300);
+  }
 }
 
 /* RWD 768px */
@@ -644,5 +776,20 @@
   .mx-md-n-3 {
     margin-left: var(--spacing-n-2);
     margin-right: var(--spacing-n-2);
+  }
+}
+
+/* RWD 1200px */
+@media (min-width: 1200px) {
+  /* 120px */
+  .py-xl-20 {
+    padding-top: var(--spacing-21);
+    padding-bottom: var(--spacing-21);
+  }
+
+  /* 80px */
+  .px-xl-19 {
+    padding-left: var(--spacing-6xl) !important;
+    padding-right: var(--spacing-6xl) !important;
   }
 }
