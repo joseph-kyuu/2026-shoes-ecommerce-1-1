@@ -537,6 +537,11 @@
   max-width: var(--max-m-6);
 }
 
+/* 746px */
+.max-w-7 {
+  max-width: var(--max-m-7);
+}
+
 /* min-width */
 .min-w-1 {
   min-width: var(--spacing-s);
