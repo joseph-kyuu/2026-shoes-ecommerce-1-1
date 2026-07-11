@@ -96,6 +96,12 @@
   !!!!!間距!!!!!
   =============
   */
+  /* 88px */
+  --spacing-23: calc(var(--general-size-base) * 5.5);
+  /* 110px */
+  --spacing-22: calc(var(--general-size-base) * 6.875);
+  /* 120px */
+  --spacing-21: calc(var(--general-size-base) * 7.5);
   /* 10px */
   --spacing-20: calc(var(--general-size-base) * 0.625);
   /* 85px */
@@ -183,6 +189,9 @@
 
   /* 636px */
   --max-m-6: calc(var(--general-size-base) * 39.75);
+
+  /* 746px */
+  --max-m-7: calc(var(--general-size-base) * 46.625);
 
   /* 
   =============
