@@ -9,7 +9,9 @@
 
 .products-list-nav li:last-child,
 .favorite-list li:last-child,
-.login-input li:last-child {
+.login-input li:last-child,
+.brand-list li:last-child,
+.brand-story div:last-child {
   margin-bottom: var(--spacing-0) !important;
 }
 
@@ -72,6 +74,15 @@
   background-repeat: no-repeat;
 }
 
+.bg-story {
+  background:
+    linear-gradient(var(--mask-black-o40), var(--mask-black-o40)),
+    url(../img/hero-sm.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* products_list */
 .bread li + li::before {
   content: "/";
@@ -96,6 +107,15 @@
 
   .bg-sm-cross {
     background: url(../img/banner-co-branded.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-sm-story {
+    background:
+      linear-gradient(var(--mask-black-o40), var(--mask-black-o40)),
+      url(../img/hero.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
