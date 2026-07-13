@@ -537,6 +537,11 @@
   max-width: var(--max-m-6);
 }
 
+/* 746px */
+.max-w-7 {
+  max-width: var(--max-m-7);
+}
+
 /* min-width */
 .min-w-1 {
   min-width: var(--spacing-s);
@@ -709,7 +714,7 @@
 
   /* 40px */
   .me-sm-6 {
-    margin-right: var(--spacing-2xl);
+    margin-right: var(--spacing-2xl) !important;
   }
 
   /* 12px */

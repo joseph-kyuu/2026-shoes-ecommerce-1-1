@@ -190,6 +190,9 @@
   /* 636px */
   --max-m-6: calc(var(--general-size-base) * 39.75);
 
+  /* 746px */
+  --max-m-7: calc(var(--general-size-base) * 46.625);
+
   /* 
   =============
   !!!!!圓角!!!!!
